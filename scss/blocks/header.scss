@@ -2,68 +2,47 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-.header {
-    position: absolute;
-    width: 1100px;
-    height: 840px;
-    left: 0px;
-    top: 0px;
-    background: #1C57C9;
+.section-outer {
 }
-.header-wrapper {
+.section-header {
+    background-color: blue;
+}
+.section-inner {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+}
+.main-navigation {
 
 }
-.logo {
+.logp {
+    display: flex;
 }
 .logo__img {
+    margin-right: 10px;
 }
-.Logo__title {
-font-style: normal;
-font-weight: bold;
-font-size: 22px;
-display: flex;
-align-items: center;
-// color: #fff;
+.logo__title {
 }
+.main-navigation__innner-wrap {
+    display: flex;
+    align-items: center;
+    margin-left: 110px;
+}
+
 .nav {
 }
 .nav-wrapper {
     display: flex;
-    justify-items: center;
-}
-.nav-wrapper__item {
     list-style: none;
 }
+.nav-wrapper__item {
+    
+}
 .nav-wrapper__item-link {
-    text-decoration: none;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
     color: #FFFFFF;
-    opacity: 0.6;
+    text-decoration: none;
 }
 .btn-wrapper {
 }
-.btn-wrapper__item {
-}
-.wrapper {
-    display: flex;
-
-
-}
-.header__title {
-}
-.header__subtitle {
-}
-.header__btn {
-}
-.header-btn__one {
-}
-.header-btn-two {
+.btn {
+    color: #FFFFFF;
 }
